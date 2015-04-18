@@ -16,10 +16,11 @@
   <meta name="description" content="Posts and writings by Zeeshan Arif">
 
 
+<meta name="keywords" content="Java">
 
   <title>
     ZedBytes
-&ndash; Posts by: Zeeshan Arif  </title>
+&ndash; Finally finalize final  </title>
 
 </head>
 
@@ -47,7 +48,6 @@
     <header>
       <p>
       <a href="http://localhost:8080">Index</a> &brvbar; <a href="http://localhost:8080/archives.html">Archives</a>
-&gt; Author: Zeeshan Arif
       </p>
     </header>
 
@@ -56,36 +56,22 @@
     <h3><a href="http://localhost:8080/finally-finalize-final.html">Finally finalize final</a></h3>
   </div>
   <div class="article_text">
-    <p class="first last">Explaining java keywords: finally, finalize and final.</p>
+    <p>final – constant declaration.
+&quot;Final&quot; denotes that something cannot be changed. You usually want to use this on static variables that will hold the same value throughout the life of your program.</p>
+<p>&quot;Finally&quot; is used in conjunction with a try/catch block. Anything inside of the &quot;finally&quot; clause will be executed regardless of if the code in the 'try' block throws an exception or not.The finally block always executes when the try block exits, except System.exit(0) call. This ensures that the finally block is executed even if an unexpected exception occurs. But finally is useful for more than just exception handling — it allows the programmer to avoid having cleanup code accidentally bypassed by a return, continue, or break. Putting cleanup code in a finally block is always a good practice, even when no exceptions are anticipated.</p>
+<p>&quot;Finalize&quot; is called by the JVM before an object is about to be garbage collected.  method helps in garbage collection. A method that is invoked before an object is discarded by the garbage collector, allowing it to clean up its state. Should not be used to release non-memory resources like file handles, sockets, database connections etc because Java has only a finite number of these resources and you do not know when the garbage collection is going to kick in to release these non-memory resources through the finalize() method.</p>
 
   </div>
-</article>
-<hr />
-<article>
-  <div class="article_title">
-    <h3><a href="http://localhost:8080/mean-on-wamp.html">MEAN on WAMP</a></h3>
+  <div class="article_meta">
+    <p>Posted on: Sat 18 April 2015</p>
+    <p>Category: <a href="http://localhost:8080/category/misc.html">misc</a>
+ &ndash; Tags:
+      <a href="http://localhost:8080/tag/java.html">Java</a>    </p>
   </div>
-  <div class="article_text">
-    <p class="first last">Comparing MEAN javascript stack with WAMP</p>
 
-  </div>
-</article>
-<hr />
-<article>
-  <div class="article_title">
-    <h3><a href="http://localhost:8080/dive-into-python-the-hard-way.html">Dive into Python the hard way !</a></h3>
-  </div>
-  <div class="article_text">
-    <p class="first last">Comparing different books which can quickly get you in grasps with python</p>
 
-  </div>
 </article>
 
-<footer>
-<div id="paginator">
-
-</div>
-</footer>
 
     <div id="ending_message">
       <p>&copy; Zeeshan Arif. Built using <a href="http://getpelican.com" target="_blank">Pelican</a>. Theme by Giulio Fidente on <a href="https://github.com/gfidente/pelican-svbhack" target="_blank">github</a>. </p>
