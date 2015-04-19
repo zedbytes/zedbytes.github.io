@@ -8,7 +8,7 @@
 
     <title>Javascript - ZedBytes</title>
 
-    <link rel="stylesheet" href="http://zedbytes.github.io/theme/css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="http://zedbytes.github.io/theme/css/bootstrap.spacelab.min.css" type="text/css"/>
     <link href="http://zedbytes.github.io/theme/css/font-awesome.min.css" rel="stylesheet">
     
     <link href="http://zedbytes.github.io/theme/css/pygments/native.css" rel="stylesheet">
@@ -43,6 +43,29 @@
         </a>
     </li>
                 
+                <li class="nav-divider"></li>
+                <li id="share-small">
+                    <a data-toggle="collapse" data-parent="#accordion-small" href="#collapse-share-small" title="Share" class="collapsed">
+                        <i class="fa fa-share-alt padding-small"></i>
+                    </a>
+                </li>
+                <li class="panel anti-panel"><ul id="collapse-share-small" class="collapse ">
+                    <li>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=" title="Share via Facebook" target="popup">
+                            <i class="fa fa-facebook-square padding-small"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/share?url=" title="Share via Google+" target="popup">
+                            <i class="fa fa-google-plus padding-small"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-count="vertical" title="Share via Twitter" target="popup">
+                            <i class="fa fa-twitter-square padding-small"></i>
+                        </a>
+                    </li>
+                </ul></li>
                 <li class="nav-divider"></li>
                 <li>
                     <a data-toggle="collapse" data-parent="#accordion-small" href="#collapse-social-small" title="Social" class="collapsed">
@@ -80,17 +103,71 @@
                     <a href="http://zedbytes.github.io/">
 <img src="http://zedbytes.github.io//images/lightredblue.png" width="200" alt="Sitelogo"/>                     </a>
                 </li>
+                    <li class="nav-divider"></li>
                     <li>
-                        <a href="http://zedbytes.github.io/archives.html">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-latest">
                             <span class="glyphicon glyphicon-th-list padding-small"></span>
                             Recent Articles
                         </a>
                     </li>
+                    <li class="panel anti-panel"><ul id="collapse-latest" class="sidebar_submenu collapse ">
+                        <li class="">
+                            <a class="hide-overflow" href="http://zedbytes.github.io/finally-finalize-final.html" title="Finally finalize final">
+                                <i class="fa fa-file-text padding-small"></i>
+                                Finally finalize final
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="hide-overflow" href="http://zedbytes.github.io/mean-on-wamp.html" title="MEAN on WAMP">
+                                <i class="fa fa-file-text padding-small"></i>
+                                MEAN on WAMP
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="hide-overflow" href="http://zedbytes.github.io/dive-into-python-the-hard-way.html" title="Dive into Python the hard way !">
+                                <i class="fa fa-file-text padding-small"></i>
+                                Dive into Python the hard way !
+                            </a>
+                        </li>
+                    <li>
+                        <a href="http://zedbytes.github.io/archives.html">
+                            <i class="fa fa-arrow-right padding-small"></i>
+                            More
+                        </a>
+                    </li>
+                    </ul></li>
+                <li class="nav-divider"></li>
+                <li id="share">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-share" title="Share" class="collapsed">
+                        <i class="fa fa-share-alt padding-small"></i>
+                        Share
+                    </a>
+                </li>
+                <li class="panel anti-panel"><ul id="collapse-share" class="sidebar_submenu collapse ">
+                    <li>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=" target="popup">
+                            <i class="fa fa-facebook-square padding-small"></i>
+                            Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/share?url=" target="popup">
+                            <i class="fa fa-google-plus padding-small"></i>
+                            Google+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-count="vertical" target="popup">
+                            <i class="fa fa-twitter-square padding-small"></i>
+                            Twitter
+                        </a>
+                    </li>
+                </ul></li>
                 <li class="nav-divider"></li>
                 <li>
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse-social">
                         <i class="fa fa-users padding-small"></i>
-                        Contact
+                        Social
                     </a>
                 </li>
                 <li class="panel anti-panel"><ul id="collapse-social" class="sidebar_submenu collapse ">
@@ -130,7 +207,7 @@
                 <li>
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse-pages">
                         <i class="fa fa-folder-open padding-small"></i>
-                        Pages
+                        About
                     </a>
                 </li>
                 <li class="panel anti-panel"><ul id="collapse-pages" class="sidebar_submenu collapse ">
@@ -141,9 +218,9 @@
                         </a>
                     </li>
                     <li>
-                        <a href="http://zedbytes.github.io/pages/contact.html">
+                        <a href="http://zedbytes.github.io/pages/email.html">
                             <i class="fa fa-file-text padding-small"></i>
-                            Contact
+                            Email
                         </a>
                     </li>
                 </ul></li>

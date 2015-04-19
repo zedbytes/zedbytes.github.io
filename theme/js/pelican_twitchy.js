@@ -2,7 +2,7 @@ $(document).ready(function(){
     /*toggle menu*/
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
-        $("#wrapper").toggleClass("toggled",1000, "easeOutSine");
+        $("#wrapper").toggleClass("toggled");
     });
 
     /*smooth scroll toc*/
